@@ -1,0 +1,19 @@
+css - C:\Users\Boinceanu.Iu.Mihail\OneDrive - Technical University of Cluj-Napoca\Documents\GitHub\LAB_5\App\style\style.css
+
+
+
+main - C:\Users\Boinceanu.Iu.Mihail\OneDrive - Technical University of Cluj-Napoca\Documents\GitHub\LAB_5\App\index.html
+
+
+
+students- C:\Users\Boinceanu.Iu.Mihail\OneDrive - Technical University of Cluj-Napoca\Documents\GitHub\LAB_5\App\students
+
+
+img - C:\Users\Boinceanu.Iu.Mihail\OneDrive - Technical University of Cluj-Napoca\Documents\GitHub\LAB_5\App\img
+
+
+
+colors: 
+	#2b2b2b - black
+	#91231a - red (back)
+	#a52518 - red (button)
