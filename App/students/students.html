@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="../style\style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="icon" href="../img/utcn-logo-alb.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../js/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../js/slick-1.8.1/slick/slick-theme.css"/>
     <title>Students</title>
 </head>
 <body>
@@ -28,7 +30,7 @@
             </div>
 
             <br><br>
-            <div class="std-flex flex-wrap">
+            <div class="std-flex center">
                 
                 <div class="stundet">
                     <a class="cont" href="Maria.html">
@@ -40,6 +42,7 @@
                         </div>
                     </a>
                 </div>
+
                 <div class="stundet">
                     <a class="cont" href="Pop Denisa Teodora.html">
                         <div class="photo" style="background-image: url('../img/user.jpeg');">
@@ -50,6 +53,38 @@
                         </div>
                     </a>
                 </div>
+
+                <div class="stundet">
+                    <a class="cont" href="Puțan Adela-Larisa.html">
+                        <div class="photo" style="background-image: url('../img/user.jpeg');"></div>
+                        <div class="name">
+                            <h3>Puțan Adela-Larisa</h3>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="stundet">
+                    <a class="cont" href="Maria.html">
+                        <div class="photo" style="background-image: url('../img/poza.jpeg');">
+                            
+                        </div>
+                        <div class="name">
+                            <h3>Inaos Elena-Maria</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="stundet">
+                    <a class="cont" href="Pop Denisa Teodora.html">
+                        <div class="photo" style="background-image: url('../img/user.jpeg');">
+                            
+                        </div>
+                        <div class="name">
+                            <h3>Pop Denisa Teodora</h3>
+                        </div>
+                    </a>
+                </div>
+
                 <div class="stundet">
                     <a class="cont" href="Puțan Adela-Larisa.html">
                         <div class="photo" style="background-image: url('../img/user.jpeg');"></div>
@@ -59,7 +94,27 @@
                     </a>
                 </div>
             </div>      
+
+        
         </section>
+        
     </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
+    <script type="text/javascript" src="../js/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".center").slick({
+                centerMode: true,
+                centerPadding: '30px',
+                slidesToShow: 3,
+                slidesToSlide: 1,
+                arrows: true,
+                slidePerRow: 1,
+                autoplay:true,
+            });
+        });
+    </script>
 </body>
 </html>

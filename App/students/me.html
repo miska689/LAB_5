@@ -27,19 +27,21 @@
             <h1 class="h1-500">Datele mele</h1>
             <br>
             <div class="flex" style="width: 100%;">
-                <img src="../img/me.jpg" alt="Poza de profil" class="img-style">
+                <img id="img" src="../img/me.jpg" alt="Poza de profil" class="img-style">
 
                 <section style="margin-left:30px;">
                     <h2>Informații de Contact</h2>
                     <br>
-                    <p>Nume: Boinceanu</p>
+                    <p id="locul">Nume: Boinceanu</p>
                     <br>
-                    <p>Prenume: Mihail</p>
+                    <p id="functia">Prenume: Mihail</p>
                     <br>
                     <p>E-mail: mihaiboinceanu2004@gmail.com</p>
+                    <div class="varsta"></div>
                     <br><br>
                     <h2>Așteptări legate de Educație</h2>
                     <br>
+
                     <i><p>"Obiectivul meu în educație este să învăț continuu și să progresez constant."</p></i>
                 </section>
             </div>
@@ -72,14 +74,20 @@
             </section>
             <br><br>
             <section class="hobby">
-                <h2>Pasiuni și Hobby-uri</h2>
+                <h2 id="realizari">Pasiuni și Hobby-uri</h2>
                 <ul>
-                    <li>Șah</li>
-                    <li>Volei</li>
-                    <li>Programare</li>
+                    <li class="hobbys">Șah</li>
+                    <li class="hobbys">Volei</li>
+                    <li class="hobbys">Programare</li>
                 </ul>
             </section>
+
+            <div class="schimba-viata">
+                <h3>Apasa aici ----></h3>
+                <button id="schimba" class="button-style">Schimba Viata</button>
+            </div>
         </div>
     </div>
+    <script src="../js/alta-viata.js"></script>
 </body>
 </html>

@@ -262,3 +262,67 @@ body{
     text-align: center;
 }
 
+
+.schimba-viata{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-style{
+    width:200px;
+    height: 60px;
+    background-color: var(--red-button);
+    color: white;
+    transition: 0.2s ease-in;
+    border: none;
+    margin-top: 20px;
+}
+
+.button-style:hover{
+    background-color: white;
+    border: 2px solid var(--red-button);
+    color: var(--red-button);
+}
+
+.body-dark{
+    background-color: #121212;
+}
+
+.persons-dark{
+    background-color: #545151;
+    color: #f0f0f0;
+}
+
+.th-dark{
+    color: #545151;
+}
+
+.img-dark{
+    border: 2px solid white;
+    opacity: .9;
+}
+
+.email-check{
+    margin-top: 50px;
+}
+
+.input-style{
+    outline: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin-bottom: 20px;
+    color: #545151;
+    border: 2px solid white;
+    padding-left:5px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
